@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo_2.png" type="image/x-icon">
+  <title>Janczarsoft – Twój partner technologiczny</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #085f63;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      display: flex;
+    }
+    header img {
+      width: 80px;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #085f63;
+    }
+    .contact {
+      background-color: #eee;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #085f63;
+      color: white;
+    }
+    a {
+      color: #085f63;
+    }
+    input, textarea {
+      width: 96%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #085f63;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .logo-name {
+      float: left;
+      margin-left: -23px;
+      font-size: 28px;
+    }
+    .logo-icon {
+      float: left;
+    }
+    .logo-container {
+      display: flex;
+      margin: auto;
+      width: 830px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img class="logo-icon" src="logo_trans.png" alt="Logo Janczarsoft">
+      <h1 class="logo-name">anczarsoft</h1>
+      <p style="margin: 60px 0px 0px -120px; text-align: left;">Nowoczesne strony i aplikacje internetowe dla firm i przedsiębiorców</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>O mnie</h2>
+    <p>
+      Zajmuję się tworzeniem stron oraz aplikacji internetowych od 2018 roku.
+      Współpracuję z firmami i przedsiębiorcami, dostarczając im praktyczne, dopasowane do potrzeb rozwiązania – od prostych wizytówek po zaawansowane systemy online.
+      Korzystam z technologii takich jak Python (Django, Flask), React, Vue.js, HTML, CSS, Webflow i WordPress.
+    </p>
+  </section>
+
+  <section>
+    <h2>Usługi</h2>
+    <ul>
+      <li>Nowoczesne strony internetowe i sklepy (WordPress, Webflow, HTML/CSS)</li>
+      <li>Aplikacje webowe (systemy rezerwacji, CRM, panele administracyjne)</li>
+      <li>Integracje z zewnętrznymi usługami (API, płatności, maile)</li>
+      <li>Utrzymanie, rozwój i optymalizacja istniejących systemów</li>
+      <li>Proste strony-wizytówki dla małych firm i jednoosobowych działalności</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Kontakt</h2>
+    <form action="https://formspree.io/f/xpwddlrr" method="POST">
+      <label for="name">Imię i nazwisko</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Adres e-mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Wiadomość</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Wyślij wiadomość</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Janczarsoft. Wszelkie prawa zastrzeżone.
+  </footer>
+</body>
+</html>
