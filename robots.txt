@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://janczarsoft.pl/sitemap.xml
