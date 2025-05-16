@@ -162,6 +162,10 @@
       position: relative;
     }
 
+    .logo-container-mobile {
+      display: none;
+    }
+
     @media (max-width: 768px) {
       .parallax-scroll {
         height: 50vh; /* zmniejsz wysokość dla mobilnych */
@@ -169,6 +173,15 @@
       .section-header {
         position: initial;
         padding: 10px;
+      }
+      .logo-container {
+        display: none;
+      }
+      .logo-container-mobile {
+        display: initial;
+      }
+      .header-mobile {
+        height: 100%;
       }
     }
 
@@ -190,6 +203,9 @@
       <img class="logo-icon" src="logo_trans.png" alt="Logo Janczarsoft – Tworzenie stron internetowych">
       <h1 class="logo-name">anczarsoft</h1>
       <p style="margin: 60px 0px 0px -120px; text-align: left;">Nowoczesne strony i aplikacje internetowe dla firm i przedsiębiorców</p>
+    </div>
+    <div class="logo-container-mobile">
+      <img class="header-mobile" src="header_mobile.png" alt="Janczarsoft – Tworzenie stron internetowych">
     </div>
   </section>
   <div class="parallax-scroll"></div>
